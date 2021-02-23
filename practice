@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>The href Attribute</h2>
+
+        <p>HTML links are defined with a tag. The link address is specified in the href attribute</p>
+
+        <a href="http://www.maristcollege.school.nz/Webspace/1/">Visit the Marist College website</a>
+
+
+        <h2>Adding an image to a website</h2>
+        <img src="randompic.JPG" alt="random pic" width="155.25" height="276">
+
+        <h1 style="background-color: rgb(209, 169, 246);">purple</h1>
+
+        <h1 style="border: 2px solid Violet;">Border around text!!! </h1>
+
+        <h2 style="color: royalblue;">Here's a colored text, cause why not</h2>
+
+        <h1 style="text-align: center;">Centered Heading</h1>
+        <p style="text-align: center;">Random Centered Paragraph</p>
+        
+        <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td{
+                padding: 15px;
+            }
+        </style>
+        </head> 
+        <body>
+
+            <h2>Call Padding</h2>
+            <p>Cell Padding specifies the space between the cell content and its borders</p>
+
+            <table style="width: 100%;">
+                <tr>
+                    <th>Random Cell 1</th>
+                    <th>Random Cell 2</th>
+                    <th>Random Cell 3</th>
+                </tr>
+                <tr>
+                    <td>Random Cell 4</td>
+                    <td>Random Cell 5</td>
+                    <td>Random Cell 6</td>
+                </tr>
+                <tr>
+                    <td>Random Cell 7</td>
+                    <td>Random Cell 8</td>
+                    <td>Random Cell 9</td>
+                </tr>
+                <tr>
+                    <td>Random Cell 10</td>
+                    <td>Random Cell 11</td>
+                    <td>Random Cell 12</td>
+                </tr>
+            </table>
+        </body>
+
+        <h2>An Unordered List</h2>
+
+        <ul>
+            <li>Random Unordered list 1</li>
+            <li>Random Unordered list 2</li>
+            <li>Random Unordered list 3</li>
+        </ul>
+
+        <h2>An Ordered List</h2>
+
+        <ol>
+            <li>Random Ordered list 1</li>
+            <li>Random Ordered list 2</li>
+            <li>Random Ordered list 3</li>
+        </ol>
+
+        <h2>Images from another server</h2>
+
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" style="width:104px;height:142px;">
+
+    </body>
+</html>
